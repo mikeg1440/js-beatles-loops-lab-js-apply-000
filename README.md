@@ -48,7 +48,13 @@ function iLoveTheBeatles(num) {
   
   var emptyArray = []
   
-  do
+  do {
+  
+  emptyArray.push("I love the Beatles!")
+  
+  num++
+    
+  } while( num < 15)
 }
 
 + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The
