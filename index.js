@@ -22,6 +22,9 @@ function johnLennonFacts(facts) {
   
   for (var i=0; i < facts.length; i++) {
     
-    alteredFacts.push(`${facts[i]} `)
+    alteredFacts.push(`${facts[i]}!!!`)
   }
+  
+  return alteredFacts
 }
+
