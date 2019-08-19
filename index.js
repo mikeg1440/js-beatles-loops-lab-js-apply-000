@@ -5,9 +5,9 @@ function theBeatlesPlay(musicians, instruments) {
  
  var beatles = []
  
- for (var i=0; i < beatle.length; i++) {
+ for (var i=0; i < musicians.length; i++) {
    
-   beatles 
+   var msg = `${musicians[i]} plays the `
  }
  
   
