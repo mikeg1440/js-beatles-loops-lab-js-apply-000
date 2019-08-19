@@ -9,8 +9,9 @@ function theBeatlesPlay(musicians, instruments) {
    
    var msg = `${musicians[i]} plays ${instruments[i]}`
    
-   beatles.pu
+   beatles.push(msg)
  }
  
+ return beatles
   
 }
